@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   transition: 0.2s;
+}
+
+body {
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: url('./img/2.jpg');
+   background-position: center;
+   background-size: cover;
+   color: white;
+   text-align: center;
+   font-family: 'Poppins', sans-serif;
+}
+
+.center_detal{
+   background: rgba(255, 255, 255, 0.4);
+   backdrop-filter: blur(5px);
+   padding: 12px;
+   border-radius: 10px;
+   border: 4px solid rgba(255, 255, 255, 0.18);
+}
+
+.center_detal h1{
+   color: black;
+}
+.center_detal h4{
+   color: #5e5e5e;
+}
+.center_detal p{
+   color: black;
+   font-weight: 600;
+   letter-spacing: 1px;
+}
+
+.setting{
+   width: 23px;
+   height: 23px;
+   position: fixed;
+   right: 28px;
+   bottom: 28px;
+   z-index: 2;
+   cursor: pointer;
+   background: url('./img/settings.png') no-repeat;
+   background-size: 23px;
+   background-position: center;
+}
+.back-frem{
+   width: auto;
+   height: 6rem;
+   background: white;
+   border-radius: 10px;
+   position: fixed;
+   bottom: -140px;
+   display: flex;
+   align-items: center;
+   padding: 12px;
+   gap: 1rem;
+}
+.back-frem .back-chang{
+   width: 77px;
+   height: 77px;
+   overflow: hidden;
+   cursor: pointer;
+   border-radius: 10px;
+}
+.back-frem .back-chang img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.back-frem .back-chang img:hover{
+   transform: scale(1.4);
+}
+
+.Show_box{
+   position: fixed;
+   bottom: 10px !important;
+}
+.close_btn{
+   background: url('./img/cross-small.png') no-repeat;
+   background-size: 28px;
+   background-position: center;
+}
+
+/* background change localstorage */
+.back1{
+   background: url("./img/2.jpg");
+   background-position: center;
+   background-size: cover;
+}
+.back2{
+   background: url("./img/5.jpg");
+   background-position: center;
+   background-size: cover;
+}
+.back3{
+   background: url("./img/3.jpg");
+   background-position: center;
+   background-size: cover;
+}
+.back4{
+   background: url("./img/4.jpg");
+   background-position: center;
+   background-size: cover;
+}
+.back5{
+   background: url("./img/1.jpg");
+   background-position: center;
+   background-size: cover;
+}
